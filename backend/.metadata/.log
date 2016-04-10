@@ -1,0 +1,33 @@
+!SESSION 2016-04-01 11:10:04.782 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/lyujiazhang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/lyujiazhang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-04-01 11:10:45.707
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-01 11:10:53.085
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-01 11:10:55.459
+!MESSAGE No profile found: default
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-01 11:10:55.508
+!MESSAGE Monitoring content of /Users/lyujiazhang/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-01 11:10:55.597
+!MESSAGE AWS toolkit core plugin initialized after 2513 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-01 11:10:55.611
+!MESSAGE The current accountId is not found in the system. Switching to the default account.
+
+!ENTRY org.eclipse.ui 2 0 2016-04-01 11:10:55.626
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.amazonaws.eclipse.elasticbeanstalk' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2016-04-01 11:10:55.806
+!MESSAGE Initialized a new Cognito identity us-east-1:8500f69d-819d-49fc-a86c-272b86145dbc
