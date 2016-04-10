@@ -83,7 +83,7 @@ public class twitterStreaming {
         SNSClient snsclient = new SNSClient();
 		AmazonSNSClient amazonSNSClient =snsclient.ini();
 		System.out.println(amazonSNSClient.toString());
-		SNSServlet snsservlet = new SNSServlet();
+		//SNSServlet snsservlet = new SNSServlet();
 		Worker wk = new Worker();
 		for(;;){			
 			String temp =wk.getResult();
@@ -91,7 +91,7 @@ public class twitterStreaming {
 				JSONObject jsonObj = new JSONObject(temp);
 				String senti =jsonObj.get("Sentiment").toString();
 				if ( senti.equals("positive") ||senti.equals("negative")||senti.equals("neutral") ){	
-					System.out.println(temp);
+					//System.out.println(temp);
 					snsclient.publish(amazonSNSClient, temp);
 				}
 			}

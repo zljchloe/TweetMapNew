@@ -9,4 +9,12 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>SNSServlet</servlet-name>
+    <servlet-class>SNSServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SNSServlet</servlet-name>
+    <url-pattern>/SNSServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
